@@ -1,6 +1,8 @@
 import express from "express";
 const app = express();
 
+app.disable("x-powered-by");
+
 const port = 8080; // default port to listen
 
 // define a route handler for the default home page
