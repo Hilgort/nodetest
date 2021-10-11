@@ -8,6 +8,10 @@ app.get( "/", ( req, res ) => {
     res.send( "Hello world!" );
 } );
 
+app.get( "/test", ( req, res ) => {
+   res.send( "Hello world test!" );
+} );
+
 // start the Express server
 app.listen( port, () => {
 
