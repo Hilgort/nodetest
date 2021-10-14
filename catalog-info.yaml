@@ -4,7 +4,7 @@ metadata:
   name: nodetest
   annotations:
     github.com/project-slug: Hilgort/nodetest
-    sonarqube.org/project-key: YOUR_PROJECT_KEY
+    sonarqube.org/project-key: 41529947e694b9779a6bbea514e478c70391fdbc
 spec:
   type: other
   lifecycle: unknown
