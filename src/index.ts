@@ -9,6 +9,10 @@ const port = 8080; // default port to listen
 
 // define a route handler for the default home page
 app.get( "/", ( req, res ) => {
+   const bool = 4;
+   if(bool === 4){
+      console.log("bool is 4");
+   }
     res.send( "Hello world!" );
 } );
 
