@@ -1,8 +1,10 @@
 import express from "express";
+import * as sw from "swagger-ui-express";
+const a = require('../swagger-output.json');
 const app = express();
 
 app.disable("x-powered-by");
-
+app.use('/api/docs', sw.serve, sw.setup(a))
 const port = 8080; // default port to listen
 
 // define a route handler for the default home page
