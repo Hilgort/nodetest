@@ -8,4 +8,4 @@ spec:
   lifecycle: unknown
   owner: boxoffice
   definition: 
-    $text: https://github.com/Hilgort/nodetest/swagger-output.json
+    $text: https://github.com/Hilgort/nodetest/blob/main/swagger-output.json

@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: Hilgort/nodetest
     sonarqube.org/project-key: Hilgort_nodetest
+    backstage.io/api-definition-openapi: ./api.yaml
 spec:
   type: other
   lifecycle: unknown
